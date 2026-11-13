@@ -169,6 +169,8 @@ Medido en la versión 2.0.1:
 
 Simulando un PC de gama baja (interfaz 4 veces más lenta y el servicio de IA en 1 núcleo), ninguna acción tardó más de 1 segundo.
 
+En la **2.0.5**, con cachés en disco para `osu!.db`, métricas y rankings, la vista **Habilidades** ya cacheada responde en ~15 ms y los clics en **Entrenar** en ~7 ms de mediana.
+
 ## Privacidad y licencia
 
 - **Tus replays, tus partidas y tu IA se quedan en tu PC.** Nada de eso se sube a ningún lado.
@@ -190,13 +192,18 @@ Simulando un PC de gama baja (interfaz 4 veces más lenta y el servicio de IA en
 3. En la ventana de activación, elige tu idioma y pega tu licencia.
 4. Abre osu! con la cuenta de la licencia. La app se abre sola; la primera vez lee tus replays y entrena tu IA (unos 2 minutos).
 
-**Requisitos:** Windows 10 u 11 (64 bits), osu! stable y 1 GB de espacio libre.
+**Requisitos:** Windows 10 u 11 (64 bits), osu! stable (u osu!lazer en pruebas) y 1 GB de espacio libre.
 
 ## Preguntas frecuentes
 
 <details>
 <summary><b>¿Funciona con osu!lazer?</b></summary>
-Está pensada para osu! stable. El soporte de osu!lazer está en pruebas.
+Está pensada principalmente para osu! stable, pero desde la 2.0.5 <b>Entrenar</b> también busca mapas y replays de osu!lazer (en pruebas).
+</details>
+
+<details>
+<summary><b>¿Por qué no se graban mis teclas en los fails o retries?</b></summary>
+En las opciones de osu!, activa <b>«Mostrar siempre superposición de teclas»</b> (<code>KeyOverlay</code>) para que osu! envíe las pulsaciones en tiempo real. Si está desactivado, la app te avisa en <b>Ajustes</b>.
 </details>
 
 <details>

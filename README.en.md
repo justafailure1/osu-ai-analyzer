@@ -169,6 +169,8 @@ Measured on version 2.0.1:
 
 Simulating a low-end PC (interface 4 times slower and the AI service on 1 core), no action took more than 1 second.
 
+In **2.0.5**, disk caches for `osu!.db`, metrics and rankings bring cached **Skills** loads down to ~15 ms and **Train** clicks to a ~7 ms median.
+
 ## Privacy and license
 
 - **Your replays, your plays and your AI stay on your PC.** None of it is uploaded anywhere.
@@ -190,13 +192,18 @@ Simulating a low-end PC (interface 4 times slower and the AI service on 1 core),
 3. In the activation window, pick your language and paste your license.
 4. Open osu! with the license's account. The app opens by itself; the first time it reads your replays and trains your AI (about 2 minutes).
 
-**Requirements:** Windows 10 or 11 (64-bit), osu! stable and 1 GB of free space.
+**Requirements:** Windows 10 or 11 (64-bit), osu! stable (or osu!lazer in testing) and 1 GB of free space.
 
 ## FAQ
 
 <details>
 <summary><b>Does it work with osu!lazer?</b></summary>
-It's built for osu! stable. osu!lazer support is being tested.
+It's built primarily for osu! stable, and starting in 2.0.5 <b>Train</b> also works with osu!lazer maps and exported replays (in testing).
+</details>
+
+<details>
+<summary><b>Why aren't my keys captured on fails or retries?</b></summary>
+In osu! Options, enable <b>"Always show key overlay"</b> (<code>KeyOverlay</code>) so osu! exposes live key taps. When it's off, <b>Settings</b> shows a warning.
 </details>
 
 <details>
